@@ -2,23 +2,33 @@ body {
 	background-color: #73e5c9;
 	}
 
+
 #logo	{
 	padding-top: 50px;
 	padding-left: 70px;
 		}
-		
-		
+			
+#topnav	{
+		display: inline;
+		list-style-type: none;
+		word-spacing: 30px;
+}
+
+#navtop	{
+		float: right;
+}
+
 section {
 	float: right;
-	width: 650px;
+	width: 65%;
 	padding-top: 0px;
 	padding-right: 100px;
-	padding-left: 50px;
+	padding-left: 0px;
 	}
 		
 aside {
 	float: left;
-	width: 350px;
+	width: 25%;
 	padding-top: 20px;
 	padding-right: 0px;
 	padding-left: 30px;
@@ -33,10 +43,13 @@ footer {
 	position: fixed;
 	bottom: 50px;
 	left 30px;
+	border-top: 1px solid black;
 	}
 
-nav	{
-	}
+header {
+		display: block;
+		border-bottom: 2px solid black;
+}
 	
 /* type */
 
